@@ -221,7 +221,7 @@ GameObject:
   m_Component:
   - component: {fileID: 358797527}
   - component: {fileID: 358797526}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Backgorund
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -314,7 +314,7 @@ GameObject:
   - component: {fileID: 747666246}
   - component: {fileID: 747666245}
   - component: {fileID: 747666244}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Jugador
   m_TagString: Untagged
   m_Icon: {fileID: 0}
