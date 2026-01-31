@@ -1,0 +1,2166 @@
+fileFormatVersion: 2
+guid: 32a8212846ec3c6489507dd4ad17a364
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1706597085940364427
+    second: climbing_0
+  - first:
+      213: 8274540127413962741
+    second: climbing_1
+  - first:
+      213: -5610774095921936604
+    second: climbing_2
+  - first:
+      213: 5857612786333312657
+    second: climbing_3
+  - first:
+      213: 3188568625863717453
+    second: climbing_4
+  - first:
+      213: 5541516194608444828
+    second: climbing_5
+  - first:
+      213: -5185168754059873288
+    second: climbing_6
+  - first:
+      213: 4448291844849632847
+    second: climbing_7
+  - first:
+      213: -5643587336431146032
+    second: climbing_8
+  - first:
+      213: -5740138391577229963
+    second: climbing_9
+  - first:
+      213: -5119224369070435636
+    second: climbing_10
+  - first:
+      213: 9059014729310128815
+    second: climbing_11
+  - first:
+      213: -4040222568678525670
+    second: climbing_12
+  - first:
+      213: -2507449083584075614
+    second: climbing_13
+  - first:
+      213: 5145085492199323841
+    second: climbing_14
+  - first:
+      213: -6293224975192476052
+    second: climbing_15
+  - first:
+      213: -355443679952167617
+    second: climbing_16
+  - first:
+      213: -3369188708754039711
+    second: climbing_17
+  - first:
+      213: 8876958439254530782
+    second: climbing_18
+  - first:
+      213: 141628223913556901
+    second: climbing_19
+  - first:
+      213: 4021872018631797982
+    second: climbing_20
+  - first:
+      213: 202496178321592289
+    second: climbing_21
+  - first:
+      213: -8152535908832958194
+    second: climbing_22
+  - first:
+      213: 1617562640035179096
+    second: climbing_23
+  - first:
+      213: 6651655383926059731
+    second: climbing_24
+  - first:
+      213: -1864536373066909759
+    second: climbing_25
+  - first:
+      213: -4595661614248353901
+    second: climbing_26
+  - first:
+      213: 4289371399616956263
+    second: climbing_27
+  - first:
+      213: 3593261054258184256
+    second: climbing_28
+  - first:
+      213: -933361981007274826
+    second: climbing_29
+  - first:
+      213: 987775802282586959
+    second: climbing_30
+  - first:
+      213: -4979203689309554821
+    second: climbing_31
+  - first:
+      213: -5866497210982798458
+    second: climbing_32
+  - first:
+      213: -2746516814346682120
+    second: climbing_33
+  - first:
+      213: 3473383660399023681
+    second: climbing_34
+  - first:
+      213: -8536835085179959472
+    second: climbing_35
+  - first:
+      213: -6517083381035884681
+    second: climbing_36
+  - first:
+      213: 3848792257125373674
+    second: climbing_37
+  - first:
+      213: 2336555111735679800
+    second: climbing_38
+  - first:
+      213: 7900238749838440584
+    second: climbing_39
+  - first:
+      213: 5822185149064423893
+    second: climbing_40
+  - first:
+      213: 3261850107225172367
+    second: climbing_41
+  - first:
+      213: -8553904170439563593
+    second: climbing_42
+  - first:
+      213: 6041979808237426611
+    second: climbing_43
+  - first:
+      213: -2045834333988189463
+    second: climbing_44
+  - first:
+      213: 294909181515349244
+    second: climbing_45
+  - first:
+      213: -5979326109609749798
+    second: climbing_46
+  - first:
+      213: 2935300215079349939
+    second: climbing_47
+  - first:
+      213: 8009802261783258438
+    second: climbing_48
+  - first:
+      213: -7735731188171237605
+    second: climbing_49
+  - first:
+      213: 6432608670204934617
+    second: climbing_50
+  - first:
+      213: -6058294370875291574
+    second: climbing_51
+  - first:
+      213: -5162110129526433887
+    second: climbing_52
+  - first:
+      213: -2462874776110748586
+    second: climbing_53
+  - first:
+      213: 1925553558969146878
+    second: climbing_54
+  - first:
+      213: 7464415707482186719
+    second: climbing_55
+  - first:
+      213: -3308019024557739129
+    second: climbing_56
+  - first:
+      213: -3673678917138248951
+    second: climbing_57
+  - first:
+      213: -2754691322357551646
+    second: climbing_58
+  - first:
+      213: 2129079659041282674
+    second: climbing_59
+  - first:
+      213: 5052596393770689784
+    second: climbing_60
+  - first:
+      213: -5328942802276798775
+    second: climbing_61
+  - first:
+      213: -6376428044945335474
+    second: climbing_62
+  - first:
+      213: -6324215586272802873
+    second: climbing_63
+  - first:
+      213: -1702528094876910488
+    second: climbing_64
+  - first:
+      213: -7292612177728640805
+    second: climbing_65
+  - first:
+      213: 127087461189942817
+    second: climbing_66
+  - first:
+      213: 1770986016288416773
+    second: climbing_67
+  - first:
+      213: 7665540870596836161
+    second: climbing_68
+  - first:
+      213: 8522785215760192706
+    second: climbing_69
+  - first:
+      213: -8032580953087712819
+    second: climbing_70
+  - first:
+      213: 1703791819689957757
+    second: climbing_71
+  - first:
+      213: 6780295614095310829
+    second: climbing_72
+  - first:
+      213: -9059108083387979088
+    second: climbing_73
+  - first:
+      213: 3946857225612541100
+    second: climbing_74
+  - first:
+      213: -8177967520953421087
+    second: climbing_75
+  - first:
+      213: 5427995909533537022
+    second: climbing_76
+  - first:
+      213: 3706830626060997061
+    second: climbing_77
+  - first:
+      213: -4811888952192905711
+    second: climbing_78
+  - first:
+      213: 1650682979685967639
+    second: climbing_79
+  - first:
+      213: 6053265672448962086
+    second: climbing_80
+  - first:
+      213: -5006422868638945956
+    second: climbing_81
+  - first:
+      213: -7099088957565800803
+    second: climbing_82
+  - first:
+      213: 5239219945151059105
+    second: climbing_83
+  - first:
+      213: 5944740032049892835
+    second: climbing_84
+  - first:
+      213: 8956284928279810327
+    second: climbing_85
+  - first:
+      213: -5629720690200924751
+    second: climbing_86
+  - first:
+      213: 7501946899147624053
+    second: climbing_87
+  - first:
+      213: -1237158987966678831
+    second: climbing_88
+  - first:
+      213: 270550358688738353
+    second: climbing_89
+  - first:
+      213: -738467671094695491
+    second: climbing_90
+  - first:
+      213: 6350354630549408632
+    second: climbing_91
+  - first:
+      213: 3396102079827812800
+    second: climbing_92
+  - first:
+      213: 4995394504940870226
+    second: climbing_93
+  - first:
+      213: -5691378148227874070
+    second: climbing_94
+  - first:
+      213: -3256064511252072424
+    second: climbing_95
+  - first:
+      213: -7312584456581450624
+    second: climbing_96
+  - first:
+      213: -6049485653376022090
+    second: climbing_97
+  - first:
+      213: -421235194814435669
+    second: climbing_98
+  - first:
+      213: -4915797985138669481
+    second: climbing_99
+  - first:
+      213: -2629793789274861613
+    second: climbing_100
+  - first:
+      213: 6827165664361477934
+    second: climbing_101
+  - first:
+      213: -7801323487633563368
+    second: climbing_102
+  - first:
+      213: 6946794602474255651
+    second: climbing_103
+  - first:
+      213: 5174937396609518916
+    second: climbing_104
+  - first:
+      213: 7169858772040131238
+    second: climbing_105
+  - first:
+      213: 2038596597727201051
+    second: climbing_106
+  - first:
+      213: 594506357804130052
+    second: climbing_107
+  - first:
+      213: -2677597605515210148
+    second: climbing_108
+  - first:
+      213: -2291898703571509240
+    second: climbing_109
+  - first:
+      213: 7152744808257656074
+    second: climbing_110
+  - first:
+      213: 1645859553598672367
+    second: climbing_111
+  - first:
+      213: 4263660373865201557
+    second: climbing_112
+  - first:
+      213: 8779412030261981436
+    second: climbing_113
+  - first:
+      213: 182762573370335278
+    second: climbing_114
+  - first:
+      213: 7411284778037917248
+    second: climbing_115
+  - first:
+      213: 3249786824956437113
+    second: climbing_116
+  - first:
+      213: -6924634031610318222
+    second: climbing_117
+  - first:
+      213: 1933080865974184837
+    second: climbing_118
+  - first:
+      213: -5200479174700508102
+    second: climbing_119
+  - first:
+      213: -1104279802392658428
+    second: climbing_120
+  - first:
+      213: 2388989940614705961
+    second: climbing_121
+  - first:
+      213: -2042657693669173196
+    second: climbing_122
+  - first:
+      213: -2169194512300146951
+    second: climbing_123
+  - first:
+      213: -789325874518495112
+    second: climbing_124
+  - first:
+      213: -8070616401962933389
+    second: climbing_125
+  - first:
+      213: -4085106004844716502
+    second: climbing_126
+  - first:
+      213: -7461173613349708667
+    second: climbing_127
+  - first:
+      213: -4613226226470032451
+    second: climbing_128
+  - first:
+      213: 6765648543335674633
+    second: climbing_129
+  - first:
+      213: -3355566670962112545
+    second: climbing_130
+  - first:
+      213: -6280521429985477443
+    second: climbing_131
+  - first:
+      213: 7133144305551911666
+    second: climbing_132
+  - first:
+      213: 148256940094105538
+    second: climbing_133
+  - first:
+      213: 6374756436558142824
+    second: climbing_134
+  - first:
+      213: -4749895602089105647
+    second: climbing_135
+  - first:
+      213: 229367545600910987
+    second: climbing_136
+  - first:
+      213: 4630946236237817079
+    second: climbing_137
+  - first:
+      213: 3608768526814158413
+    second: climbing_138
+  - first:
+      213: 1738022315326763193
+    second: climbing_139
+  - first:
+      213: -972402829700364940
+    second: climbing_140
+  - first:
+      213: 3768457654804874443
+    second: climbing_141
+  - first:
+      213: 8662564921012176373
+    second: climbing_142
+  - first:
+      213: -7056269448556958349
+    second: climbing_143
+  - first:
+      213: 6878541741477889397
+    second: climbing_144
+  - first:
+      213: -4676342720655993021
+    second: climbing_145
+  - first:
+      213: -9153658570161006232
+    second: climbing_146
+  - first:
+      213: -1934583019958821973
+    second: climbing_147
+  - first:
+      213: -8228020060737456980
+    second: climbing_148
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: climbing_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57bcec50ef2f058e0800000000000000
+      internalID: -1706597085940364427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f7893ec76215d270800000000000000
+      internalID: 8274540127413962741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4270c99dfa68222b0800000000000000
+      internalID: -5610774095921936604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 196ee215bcb6a4150800000000000000
+      internalID: 5857612786333312657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_4
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d42ff8e7542104c20800000000000000
+      internalID: 3188568625863717453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_5
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95f5b86e9b67ec40800000000000000
+      internalID: 5541516194608444828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_6
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f37ec98d749a08b0800000000000000
+      internalID: -5185168754059873288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_7
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4687856dd18bbd30800000000000000
+      internalID: 4448291844849632847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_8
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dbe021f733fda1b0800000000000000
+      internalID: -5643587336431146032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5750570ab8ee650b0800000000000000
+      internalID: -5740138391577229963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc298042f8cd4f8b0800000000000000
+      internalID: -5119224369070435636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_11
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faacf8b46e518bd70800000000000000
+      internalID: 9059014729310128815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a157664dafe3ee7c0800000000000000
+      internalID: -4040222568678525670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_13
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a8a790f750c33dd0800000000000000
+      internalID: -2507449083584075614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_14
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c87e8dcef3076740800000000000000
+      internalID: 5145085492199323841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_15
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66390e5a39f9a8a0800000000000000
+      internalID: -6293224975192476052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_16
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3d1bc63bd5311bf0800000000000000
+      internalID: -355443679952167617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_17
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c557958bc3e31d0800000000000000
+      internalID: -3369188708754039711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda1ca91baa413b70800000000000000
+      internalID: 8876958439254530782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_19
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ab79888e1a27f100800000000000000
+      internalID: 141628223913556901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_20
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edca1aaca4f80d730800000000000000
+      internalID: 4021872018631797982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_21
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef8b3983396fc200800000000000000
+      internalID: 202496178321592289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_22
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09256fe8cf5cde80800000000000000
+      internalID: -8152535908832958194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_23
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a6d31a6acb27610800000000000000
+      internalID: 1617562640035179096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_24
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d23a37645d6f4c50800000000000000
+      internalID: 6651655383926059731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_25
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c73d842c06df16e0800000000000000
+      internalID: -1864536373066909759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_26
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f14d65c1ee830c0800000000000000
+      internalID: -4595661614248353901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76783e7df88e68b30800000000000000
+      internalID: 4289371399616956263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_28
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0400e4414e3ddd130800000000000000
+      internalID: 3593261054258184256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_29
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bcd43339380c03f0800000000000000
+      internalID: -933361981007274826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_30
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f43b7c4dbd845bd00800000000000000
+      internalID: 987775802282586959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_31
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b77b36220a056eab0800000000000000
+      internalID: -4979203689309554821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_32
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68bec8f5ed3069ea0800000000000000
+      internalID: -5866497210982798458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_33
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f08a3f428962e9d0800000000000000
+      internalID: -2746516814346682120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_34
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146dabe4900f33030800000000000000
+      internalID: 3473383660399023681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_35
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 057c1c958b1178980800000000000000
+      internalID: -8536835085179959472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f11c5a13bae85a0800000000000000
+      internalID: -6517083381035884681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_37
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae65b348a28a96530800000000000000
+      internalID: 3848792257125373674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_38
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83bd0299e7c1d6020800000000000000
+      internalID: 2336555111735679800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_39
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88875e4294943ad60800000000000000
+      internalID: 7900238749838440584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_40
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d92a8abb8e8cc050800000000000000
+      internalID: 5822185149064423893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_41
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89e9b7f36b644d20800000000000000
+      internalID: 3261850107225172367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_42
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b6a73e3a7d6a4980800000000000000
+      internalID: -8553904170439563593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_43
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b71312bf9c69d350800000000000000
+      internalID: 6041979808237426611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_44
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea0655338cbb93e0800000000000000
+      internalID: -2045834333988189463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc393d865ab71400800000000000000
+      internalID: 294909181515349244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_46
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad21e78459a250da0800000000000000
+      internalID: -5979326109609749798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_47
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3beaee46ef74cb820800000000000000
+      internalID: 2935300215079349939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_48
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64526b628b8882f60800000000000000
+      internalID: 8009802261783258438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_49
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b179423587925a490800000000000000
+      internalID: -7735731188171237605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_50
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d9b9ae0187354950800000000000000
+      internalID: 6432608670204934617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_51
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a48ca3f2e5d9ceba0800000000000000
+      internalID: -6058294370875291574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_52
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a7912eef208c58b0800000000000000
+      internalID: -5162110129526433887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_53
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c26a3a07c12ddd0800000000000000
+      internalID: -2462874776110748586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd585682c0f8ba10800000000000000
+      internalID: 1925553558969146878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_55
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd3625ca98ee69760800000000000000
+      internalID: 7464415707482186719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_56
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783700b493e8712d0800000000000000
+      internalID: -3308019024557739129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_57
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90b02252d78740dc0800000000000000
+      internalID: -3673678917138248951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_58
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ede60956de55c9d0800000000000000
+      internalID: -2754691322357551646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_59
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27a5aa76ba20c8d10800000000000000
+      internalID: 2129079659041282674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_60
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f42f1c76ad6e1640800000000000000
+      internalID: 5052596393770689784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_61
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ceaae951cacb06b0800000000000000
+      internalID: -5328942802276798775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_62
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4bd1351a706287a0800000000000000
+      internalID: -6376428044945335474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c788317e6fdb38a0800000000000000
+      internalID: -6324215586272802873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_64
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c3db4d7b76f58e0800000000000000
+      internalID: -1702528094876910488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_65
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8ebcdbcdf6bca90800000000000000
+      internalID: -7292612177728640805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_66
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12ef1a36f5183c100800000000000000
+      internalID: 127087461189942817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_67
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5042e03166ec39810800000000000000
+      internalID: 1770986016288416773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: climbing_68
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14bb92bdec8716a60800000000000000
+      internalID: 7665540870596836161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1804fe1f6cf4f1b4899713209eb4fddb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":9.0,"y":8.0},"gridSpriteSize":{"x":512.0,"y":512.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      climbing_0: -1706597085940364427
+      climbing_1: 8274540127413962741
+      climbing_10: -5119224369070435636
+      climbing_11: 9059014729310128815
+      climbing_12: -4040222568678525670
+      climbing_13: -2507449083584075614
+      climbing_14: 5145085492199323841
+      climbing_15: -6293224975192476052
+      climbing_16: -355443679952167617
+      climbing_17: -3369188708754039711
+      climbing_18: 8876958439254530782
+      climbing_19: 141628223913556901
+      climbing_2: -5610774095921936604
+      climbing_20: 4021872018631797982
+      climbing_21: 202496178321592289
+      climbing_22: -8152535908832958194
+      climbing_23: 1617562640035179096
+      climbing_24: 6651655383926059731
+      climbing_25: -1864536373066909759
+      climbing_26: -4595661614248353901
+      climbing_27: 4289371399616956263
+      climbing_28: 3593261054258184256
+      climbing_29: -933361981007274826
+      climbing_3: 5857612786333312657
+      climbing_30: 987775802282586959
+      climbing_31: -4979203689309554821
+      climbing_32: -5866497210982798458
+      climbing_33: -2746516814346682120
+      climbing_34: 3473383660399023681
+      climbing_35: -8536835085179959472
+      climbing_36: -6517083381035884681
+      climbing_37: 3848792257125373674
+      climbing_38: 2336555111735679800
+      climbing_39: 7900238749838440584
+      climbing_4: 3188568625863717453
+      climbing_40: 5822185149064423893
+      climbing_41: 3261850107225172367
+      climbing_42: -8553904170439563593
+      climbing_43: 6041979808237426611
+      climbing_44: -2045834333988189463
+      climbing_45: 294909181515349244
+      climbing_46: -5979326109609749798
+      climbing_47: 2935300215079349939
+      climbing_48: 8009802261783258438
+      climbing_49: -7735731188171237605
+      climbing_5: 5541516194608444828
+      climbing_50: 6432608670204934617
+      climbing_51: -6058294370875291574
+      climbing_52: -5162110129526433887
+      climbing_53: -2462874776110748586
+      climbing_54: 1925553558969146878
+      climbing_55: 7464415707482186719
+      climbing_56: -3308019024557739129
+      climbing_57: -3673678917138248951
+      climbing_58: -2754691322357551646
+      climbing_59: 2129079659041282674
+      climbing_6: -5185168754059873288
+      climbing_60: 5052596393770689784
+      climbing_61: -5328942802276798775
+      climbing_62: -6376428044945335474
+      climbing_63: -6324215586272802873
+      climbing_64: -1702528094876910488
+      climbing_65: -7292612177728640805
+      climbing_66: 127087461189942817
+      climbing_67: 1770986016288416773
+      climbing_68: 7665540870596836161
+      climbing_7: 4448291844849632847
+      climbing_8: -5643587336431146032
+      climbing_9: -5740138391577229963
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
