@@ -3,7 +3,7 @@ using UnityEngine;
 public class MovimientoJugador : MonoBehaviour
 {
     [Header("Ajustes")]
-    public float velocidad = 1.5f;
+    public float velocidad = 3f;
     public float fuerzaSalto = 4f; 
 
     [Header("Referencias")]
