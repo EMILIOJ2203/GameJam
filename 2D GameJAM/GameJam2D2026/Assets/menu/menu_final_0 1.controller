@@ -1,21 +1,13 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
-<<<<<<<< HEAD:2D GameJAM/GameJam2D2026/Assets/menu/menu_final_0 1.controller
 --- !u!1102 &-2070172740794838282
-========
---- !u!1102 &-6802606068508725693
->>>>>>>> Camera:2D GameJAM/GameJam2D2026/Assets/Character/Button.controller
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:2D GameJAM/GameJam2D2026/Assets/menu/menu_final_0 1.controller
   m_Name: menu_final
-========
-  m_Name: eye
->>>>>>>> Camera:2D GameJAM/GameJam2D2026/Assets/Character/Button.controller
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -28,11 +20,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-<<<<<<<< HEAD:2D GameJAM/GameJam2D2026/Assets/menu/menu_final_0 1.controller
   m_Motion: {fileID: 7400000, guid: 9ca2439b35537c642b8f71b4cb1df27a, type: 2}
-========
-  m_Motion: {fileID: 7400000, guid: c281c7649ecd19e47a25f3c5ade7b506, type: 2}
->>>>>>>> Camera:2D GameJAM/GameJam2D2026/Assets/Character/Button.controller
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -44,21 +32,13 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:2D GameJAM/GameJam2D2026/Assets/menu/menu_final_0 1.controller
   m_Name: menu_final_0 1
-========
-  m_Name: Button
->>>>>>>> Camera:2D GameJAM/GameJam2D2026/Assets/Character/Button.controller
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
-<<<<<<<< HEAD:2D GameJAM/GameJam2D2026/Assets/menu/menu_final_0 1.controller
     m_StateMachine: {fileID: 797364845555477733}
-========
-    m_StateMachine: {fileID: 1556226515378122620}
->>>>>>>> Camera:2D GameJAM/GameJam2D2026/Assets/Character/Button.controller
     m_Mask: {fileID: 0}
     m_Motions: []
     m_Behaviours: []
@@ -68,11 +48,7 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
-<<<<<<<< HEAD:2D GameJAM/GameJam2D2026/Assets/menu/menu_final_0 1.controller
 --- !u!1107 &797364845555477733
-========
---- !u!1107 &1556226515378122620
->>>>>>>> Camera:2D GameJAM/GameJam2D2026/Assets/Character/Button.controller
 AnimatorStateMachine:
   serializedVersion: 6
   m_ObjectHideFlags: 1
@@ -82,11 +58,7 @@ AnimatorStateMachine:
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
-<<<<<<<< HEAD:2D GameJAM/GameJam2D2026/Assets/menu/menu_final_0 1.controller
     m_State: {fileID: -2070172740794838282}
-========
-    m_State: {fileID: -6802606068508725693}
->>>>>>>> Camera:2D GameJAM/GameJam2D2026/Assets/Character/Button.controller
     m_Position: {x: 200, y: 0, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
@@ -97,8 +69,4 @@ AnimatorStateMachine:
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-<<<<<<<< HEAD:2D GameJAM/GameJam2D2026/Assets/menu/menu_final_0 1.controller
   m_DefaultState: {fileID: -2070172740794838282}
-========
-  m_DefaultState: {fileID: -6802606068508725693}
->>>>>>>> Camera:2D GameJAM/GameJam2D2026/Assets/Character/Button.controller

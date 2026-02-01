@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:2D GameJAM/GameJam2D2026/Assets/Character/running_0.controller.meta
-guid: 8af372410b9633447b13eb84d7b1623f
+<<<<<<<< HEAD:2D GameJAM/GameJam2D2026/Assets/menu/Image.controller.meta
+guid: 585b95960414bcd409cb6d316e37259e
 ========
 guid: 9152b7dcc381a874caef3d2e772f22b4
->>>>>>>> Camera:2D GameJAM/GameJam2D2026/Assets/Character/Button.controller.meta
+>>>>>>>> main:2D GameJAM/GameJam2D2026/Assets/Character/Button.controller.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 9100000
