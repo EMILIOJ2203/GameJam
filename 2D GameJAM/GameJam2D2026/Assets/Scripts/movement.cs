@@ -3,8 +3,10 @@ using UnityEngine;
 public class MovimientoJugador : MonoBehaviour
 {
     [Header("Ajustes")]
-    public float velocidad = 1.5f;
+    public float velocidad = 3f;
     public float fuerzaSalto = 4f; 
+
+    public AudioSource audioCorrer;
 
     [Header("Referencias")]
     public Transform pies;
@@ -51,6 +53,24 @@ public class MovimientoJugador : MonoBehaviour
         
         animator.SetBool("Subiendo", estaSubiendo);
 
+        bool seEstaMoviendo = Mathf.Abs(inputHorizontal) > 0.1f;
+
+        if (seEstaMoviendo && enSuelo)
+        {
+            // Solo le damos Play si NO está sonando ya para evitar tartamudeo
+            if (!audioCorrer.isPlaying)
+            {
+                // Opcional: Variar un poco el tono para que no suene robótico
+                audioCorrer.pitch = Random.Range(0.9f, 1.1f); 
+                audioCorrer.Play();
+            }
+        }
+        else
+        {
+            // Si saltamos o nos detenemos, el sonido para
+            audioCorrer.Stop();
+        }
+        
         // 4. SALTO
         if (Input.GetButtonDown("Jump") && enSuelo)
         {
