@@ -4,34 +4,42 @@ using UnityEngine.SceneManagement;
 
 public class SceneFader : MonoBehaviour
 {
+    [Header("Fade")]
     [SerializeField] private CanvasGroup fadeOverlay;
     [SerializeField] private float fadeOutDuration = 0.35f;
+
+    [Header("Credits")]
+    [SerializeField] private GameObject creditsOverlay;
 
     private bool isTransitioning;
 
     private void Awake()
     {
-        // Intenta encontrar el CanvasGroup del FadeOverlay por nombre (más seguro)
+        // Buscar FadeOverlay por nombre si no está asignado
         if (fadeOverlay == null)
         {
             var go = GameObject.Find("FadeOverlay");
             if (go != null) fadeOverlay = go.GetComponent<CanvasGroup>();
         }
 
-        // Último recurso: cualquier CanvasGroup (no ideal, pero evita null)
         if (fadeOverlay == null)
             fadeOverlay = FindObjectOfType<CanvasGroup>();
 
-        // Importantísimo: si está invisible, no debe bloquear clicks
         if (fadeOverlay != null)
         {
             fadeOverlay.alpha = 0f;
             fadeOverlay.blocksRaycasts = false;
             fadeOverlay.interactable = false;
         }
+
+        // Asegura que créditos inicien ocultos
+        if (creditsOverlay != null)
+            creditsOverlay.SetActive(false);
     }
 
-    // --- BOTONES ---
+    // =========================
+    // BOTONES DE MENÚ
+    // =========================
 
     public void GoToGameJam2D()
     {
@@ -42,14 +50,27 @@ public class SceneFader : MonoBehaviour
     {
         if (isTransitioning) return;
 
-        // Si hay overlay, hacemos fade antes de salir
         if (fadeOverlay != null)
             StartCoroutine(FadeAndQuit());
         else
             QuitNow();
     }
 
-    // --- CORE ---
+    public void ShowCredits()
+    {
+        if (isTransitioning || creditsOverlay == null) return;
+        creditsOverlay.SetActive(true);
+    }
+
+    public void HideCredits()
+    {
+        if (creditsOverlay == null) return;
+        creditsOverlay.SetActive(false);
+    }
+
+    // =========================
+    // CORE FADE
+    // =========================
 
     public void FadeToScene(string sceneName)
     {
@@ -61,7 +82,7 @@ public class SceneFader : MonoBehaviour
     {
         isTransitioning = true;
 
-        fadeOverlay.blocksRaycasts = true; // bloquea clicks durante el fade
+        fadeOverlay.blocksRaycasts = true;
         yield return FadeRoutine(fadeOverlay.alpha, 1f, fadeOutDuration);
 
         SceneManager.LoadScene(sceneName);
@@ -100,7 +121,7 @@ public class SceneFader : MonoBehaviour
             t += Time.unscaledDeltaTime;
             float k = Mathf.Clamp01(t / duration);
 
-            // suavizado (S-curve)
+            // Ease in-out (suave indie)
             k = k * k * (3f - 2f * k);
 
             fadeOverlay.alpha = Mathf.Lerp(from, to, k);
