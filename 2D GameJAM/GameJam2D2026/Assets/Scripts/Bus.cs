@@ -8,15 +8,18 @@ public class MaskObject : MonoBehaviour
     private Rigidbody2D rb;
     private PolygonCollider2D polyCol; // Usamos el tipo específico
     private SpriteRenderer sr;
+    private GameController controller;
 
     [Header("Configuración de Workspace")]
     public GameObject miWorkspace; 
+    public bool debugClicks = false;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         polyCol = GetComponent<PolygonCollider2D>();
         sr = GetComponent<SpriteRenderer>();
+        controller = FindObjectOfType<GameController>();
         
         // 1. Desactivamos el collider al inicio para que no choque con nada
         if (polyCol != null) polyCol.enabled = false; 
@@ -28,19 +31,23 @@ public class MaskObject : MonoBehaviour
     void Update()
     {
         // Detección de clic manual basada en el área del Sprite
-        if (Time.timeScale == 0f && Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0))
         {
             Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            
-            if (sr != null && sr.bounds.Contains(new Vector3(mousePos.x, mousePos.y, 0)))
+            mousePos.z = 0;
+
+            if (sr != null && sr.bounds.Contains(mousePos))
             {
-                if (miWorkspace != null && miWorkspace.activeSelf)
+                if (!PuedeInteractuar(mousePos))
                 {
-                    if (!yaRevelado) Revelar();
-                    
-                    isDragging = true;
-                    offset = transform.position - (Vector3)mousePos;
+                    if (debugClicks) Debug.Log("Click bloqueado: " + name);
+                    return;
                 }
+
+                if (!yaRevelado) Revelar();
+
+                isDragging = true;
+                offset = transform.position - (Vector3)mousePos;
             }
         }
 
@@ -54,12 +61,57 @@ public class MaskObject : MonoBehaviour
             }
         }
 
-        if (isDragging && Time.timeScale == 0f)
+        if (isDragging)
         {
             Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             mousePos.z = 0; 
             transform.position = (Vector2)mousePos + (Vector2)offset;
         }
+    }
+
+    bool PuedeInteractuar(Vector3 mousePos)
+    {
+        if (controller != null && controller.IsMaskModeActive)
+        {
+            bool permitido = miWorkspace != null && miWorkspace.activeSelf;
+            if (debugClicks) Debug.Log("MaskMode activo en " + name + " => " + permitido);
+            return permitido;
+        }
+
+        bool esSuperior = EsSuperiorEnPunto(mousePos);
+        if (debugClicks) Debug.Log("MaskMode inactivo en " + name + " => topmost: " + esSuperior);
+        return esSuperior;
+    }
+
+    bool EsSuperiorEnPunto(Vector3 mousePos)
+    {
+        if (sr == null) return false;
+
+        int miLayer = SortingLayer.GetLayerValueFromID(sr.sortingLayerID);
+        int miOrden = sr.sortingOrder;
+
+        MaskObject[] objetos = FindObjectsOfType<MaskObject>();
+        foreach (MaskObject otro in objetos)
+        {
+            if (otro == this || otro.sr == null) continue;
+            if (!otro.sr.bounds.Contains(mousePos)) continue;
+
+            int otroLayer = SortingLayer.GetLayerValueFromID(otro.sr.sortingLayerID);
+            int otroOrden = otro.sr.sortingOrder;
+
+            if (otroLayer > miLayer)
+            {
+                if (debugClicks) Debug.Log("Bloqueado por layer: " + otro.name);
+                return false;
+            }
+            if (otroLayer == miLayer && otroOrden > miOrden)
+            {
+                if (debugClicks) Debug.Log("Bloqueado por order: " + otro.name);
+                return false;
+            }
+        }
+
+        return true;
     }
 
     void Revelar()

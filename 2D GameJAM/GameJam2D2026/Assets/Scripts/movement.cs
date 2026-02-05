@@ -1,4 +1,7 @@
 using UnityEngine;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 public class MovimientoJugador : MonoBehaviour
 {
@@ -7,11 +10,14 @@ public class MovimientoJugador : MonoBehaviour
     public float fuerzaSalto = 4f; 
 
     public AudioSource audioCorrer;
+    public AudioClip stepClip;
 
     [Header("Referencias")]
     public Transform pies;
     public float radioSuelo = 0.2f;
+    public float distanciaSuelo = 0.1f;
     public LayerMask capaSuelo;
+    public float velocidadMaxSubidaParaSuelo = 0.05f;
 
     private Rigidbody2D rb;
     private Animator animator;
@@ -25,6 +31,19 @@ public class MovimientoJugador : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+
+#if UNITY_EDITOR
+        if (stepClip == null)
+        {
+            stepClip = AssetDatabase.LoadAssetAtPath<AudioClip>("Assets/SFX/step.mp3");
+        }
+#endif
+
+        if (audioCorrer != null && stepClip != null)
+        {
+            audioCorrer.clip = stepClip;
+            audioCorrer.loop = true;
+        }
     }
 
     void Update()
@@ -84,6 +103,7 @@ public class MovimientoJugador : MonoBehaviour
         rb.linearVelocity = new Vector2(inputHorizontal * velocidad, rb.linearVelocity.y);
         
         // Detección de suelo
-        enSuelo = Physics2D.OverlapCircle(pies.position, radioSuelo, capaSuelo);
+        RaycastHit2D golpeSuelo = Physics2D.Raycast(pies.position, Vector2.down, distanciaSuelo, capaSuelo);
+        enSuelo = golpeSuelo.collider != null && rb.linearVelocity.y <= velocidadMaxSubidaParaSuelo;
     }
 }
