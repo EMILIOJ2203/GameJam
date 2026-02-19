@@ -1,15 +1,23 @@
 using UnityEngine;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 public class MovimientoJugador : MonoBehaviour
 {
     [Header("Ajustes")]
-    public float velocidad = 1.5f;
+    public float velocidad = 3f;
     public float fuerzaSalto = 4f; 
+
+    public AudioSource audioCorrer;
+    public AudioClip stepClip;
 
     [Header("Referencias")]
     public Transform pies;
     public float radioSuelo = 0.2f;
+    public float distanciaSuelo = 0.1f;
     public LayerMask capaSuelo;
+    public float velocidadMaxSubidaParaSuelo = 0.05f;
 
     private Rigidbody2D rb;
     private Animator animator;
@@ -23,6 +31,19 @@ public class MovimientoJugador : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+
+#if UNITY_EDITOR
+        if (stepClip == null)
+        {
+            stepClip = AssetDatabase.LoadAssetAtPath<AudioClip>("Assets/SFX/step.mp3");
+        }
+#endif
+
+        if (audioCorrer != null && stepClip != null)
+        {
+            audioCorrer.clip = stepClip;
+            audioCorrer.loop = true;
+        }
     }
 
     void Update()
@@ -51,6 +72,24 @@ public class MovimientoJugador : MonoBehaviour
         
         animator.SetBool("Subiendo", estaSubiendo);
 
+        bool seEstaMoviendo = Mathf.Abs(inputHorizontal) > 0.1f;
+
+        if (seEstaMoviendo && enSuelo)
+        {
+            // Solo le damos Play si NO está sonando ya para evitar tartamudeo
+            if (!audioCorrer.isPlaying)
+            {
+                // Opcional: Variar un poco el tono para que no suene robótico
+                audioCorrer.pitch = Random.Range(0.9f, 1.1f); 
+                audioCorrer.Play();
+            }
+        }
+        else
+        {
+            // Si saltamos o nos detenemos, el sonido para
+            audioCorrer.Stop();
+        }
+        
         // 4. SALTO
         if (Input.GetButtonDown("Jump") && enSuelo)
         {
@@ -64,6 +103,7 @@ public class MovimientoJugador : MonoBehaviour
         rb.linearVelocity = new Vector2(inputHorizontal * velocidad, rb.linearVelocity.y);
         
         // Detección de suelo
-        enSuelo = Physics2D.OverlapCircle(pies.position, radioSuelo, capaSuelo);
+        RaycastHit2D golpeSuelo = Physics2D.Raycast(pies.position, Vector2.down, distanciaSuelo, capaSuelo);
+        enSuelo = golpeSuelo.collider != null && rb.linearVelocity.y <= velocidadMaxSubidaParaSuelo;
     }
 }

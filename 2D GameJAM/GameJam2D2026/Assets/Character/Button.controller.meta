@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:2D GameJAM/GameJam2D2026/Assets/menu/Image.controller.meta
+guid: a5ff0d2bc2b856746ade51ab5f85b18d
+========
 guid: 9152b7dcc381a874caef3d2e772f22b4
+>>>>>>>> main:2D GameJAM/GameJam2D2026/Assets/Character/Button.controller.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 9100000

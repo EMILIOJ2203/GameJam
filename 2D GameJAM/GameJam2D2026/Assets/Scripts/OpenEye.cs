@@ -25,20 +25,16 @@ public class OpenEye : MonoBehaviour
         // Actualización por frame si es necesario
     }
 
-    // Esta es la función que debes conectar al botón
     public void AlternarEstadoOjo()
+    {
+        SetEstado(!estaAbierto);
+    }
+
+    public void SetEstado(bool abierto)
     {
         if (imagenComponente == null) return;
 
-        estaAbierto = !estaAbierto;
-
-        if (estaAbierto)
-        {
-            imagenComponente.sprite = ojoAbierto;
-        }
-        else
-        {
-            imagenComponente.sprite = ojoCerrado;
-        }
+        estaAbierto = abierto;
+        imagenComponente.sprite = estaAbierto ? ojoAbierto : ojoCerrado;
     }
 }

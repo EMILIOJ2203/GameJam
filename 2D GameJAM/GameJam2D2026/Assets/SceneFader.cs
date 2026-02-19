@@ -1,9 +1,14 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using static System.Net.Mime.MediaTypeNames;
 
 public class SceneFader : MonoBehaviour
 {
+    // --- ESTA ES LA CLAVE: Una variable que sobrevive al cambio de escena ---
+    public static bool mostrarCreditosAlIniciar = false;
+    // -----------------------------------------------------------------------
+
     [Header("Fade")]
     [SerializeField] private CanvasGroup fadeOverlay;
     [SerializeField] private float fadeOutDuration = 0.35f;
@@ -15,7 +20,7 @@ public class SceneFader : MonoBehaviour
 
     private void Awake()
     {
-        // Buscar FadeOverlay por nombre si no está asignado
+        // Configuración inicial del Fade
         if (fadeOverlay == null)
         {
             var go = GameObject.Find("FadeOverlay");
@@ -32,9 +37,19 @@ public class SceneFader : MonoBehaviour
             fadeOverlay.interactable = false;
         }
 
-        // Asegura que créditos inicien ocultos
+        // Ocultar créditos por defecto al arrancar
         if (creditsOverlay != null)
             creditsOverlay.SetActive(false);
+    }
+
+    private void Start()
+    {
+        // --- AQUÍ REVISAMOS LA NOTA ---
+        if (mostrarCreditosAlIniciar)
+        {
+            ShowCredits(); // ¡Abrir créditos de una!
+            mostrarCreditosAlIniciar = false; // Borramos la nota para la próxima vez
+        }
     }
 
     // =========================
@@ -81,26 +96,22 @@ public class SceneFader : MonoBehaviour
     private IEnumerator FadeAndLoad(string sceneName)
     {
         isTransitioning = true;
-
         fadeOverlay.blocksRaycasts = true;
         yield return FadeRoutine(fadeOverlay.alpha, 1f, fadeOutDuration);
-
         SceneManager.LoadScene(sceneName);
     }
 
     private IEnumerator FadeAndQuit()
     {
         isTransitioning = true;
-
         fadeOverlay.blocksRaycasts = true;
         yield return FadeRoutine(fadeOverlay.alpha, 1f, fadeOutDuration);
-
         QuitNow();
     }
 
     private void QuitNow()
     {
-        Application.Quit();
+        UnityEngine.Application.Quit();
 
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
@@ -120,14 +131,10 @@ public class SceneFader : MonoBehaviour
         {
             t += Time.unscaledDeltaTime;
             float k = Mathf.Clamp01(t / duration);
-
-            // Ease in-out (suave indie)
             k = k * k * (3f - 2f * k);
-
             fadeOverlay.alpha = Mathf.Lerp(from, to, k);
             yield return null;
         }
-
         fadeOverlay.alpha = to;
     }
 }

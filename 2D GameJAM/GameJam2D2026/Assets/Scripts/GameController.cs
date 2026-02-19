@@ -5,9 +5,17 @@ public class GameController : MonoBehaviour
     [Header("Configuración de Capas")]
     // Arrastra aquí todos tus Workspaces (Workspace, Workspace-2, etc.)
     public GameObject[] todosLosWorkspaces; 
+
+    [Header("UI")]
+    public OpenEye ojoUI;
     
     private bool isMaskModeActive = false;
     private int capaActualIdx = -1;
+
+    public bool IsMaskModeActive
+    {
+        get { return isMaskModeActive; }
+    }
 
     void Start() 
     {
@@ -21,6 +29,18 @@ public class GameController : MonoBehaviour
     // Esta función la llamarán tus botones de la derecha (0, 1, 2, 3...)
     public void ActivarCapa(int indice)
     {
+        if (todosLosWorkspaces == null || indice < 0 || indice >= todosLosWorkspaces.Length)
+        {
+            Debug.LogWarning("Indice de capa fuera de rango: " + indice);
+            return;
+        }
+
+        if (todosLosWorkspaces[indice] == null)
+        {
+            Debug.LogWarning("Workspace nulo en indice: " + indice);
+            return;
+        }
+
         // 1. Si ya estamos en modo edición y pulsamos la misma capa, la cerramos
         if (isMaskModeActive && capaActualIdx == indice)
         {
@@ -58,6 +78,7 @@ public class GameController : MonoBehaviour
                 ws.SetActive(false);
             }
             capaActualIdx = -1;
+            if (ojoUI != null) ojoUI.SetEstado(false);
         }
 
         Time.timeScale = isMaskModeActive ? 0f : 1f;
